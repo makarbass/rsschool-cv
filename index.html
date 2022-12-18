@@ -2,8 +2,102 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>CV2 - HTML, CSS &amp; Git Basic</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Makarov Artem</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="assets/favicon.ico">
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#aboutme" class="nav-link">About Me</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+              </nav>
+        </header>
+        <main class="main">
+            <img class="photo" src="./assets/img/photo.png" alt="photo">
+            <h1>Makarov Artem</h1>
+            <h3>Backend Python Developer</h3>
+            <section id="aboutme" class="aboutme">
+            <h2>About me</h2>
+            <div>Hi, my name is Artem and I'm python developer</div>
+            </section>
+            <section id="contacts" class="contacts">
+            <h2>Contacts</h2>
+            <div>artem.reaktoragency@gmail.com</div>
+            </section>
+            <section id="skills" class="skills">
+                <h2>Skills</h2>
+                <div>Python, C, SQL, Flask</div>
+            </section>
+            
+            <section id="code" class="code">
+                <h2>Code</h2>
+                <pre>
+                    <code>
+if __name__ == '__main__':
+app.run(host=API.get('host'), port=API.getint(
+    'port'), debug=API.getboolean('debug'))
+                    </code>
+                </pre>
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <a href="https://www.velonik.ru">Bicycle excursions bot</a>
+                <a href="https://www.velonik.ru/api/rates">MIR Currency API</a>
+            </section>
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        Bachelor of Information Systems and Technology. (2020)
+                    </li>    
+                    <li>
+                        Master in Information Systems and Technology. (2020-present)
+                    </li>
+                </ul>
+            </section>
+            <section id="languages" class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>
+                        Russian - native
+                    </li>    
+                    <li>
+                        English - adviced
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <ul class="hr">
+                <li class="footeritem"><a href="github.com/makarbass">My github page</a></li>
+                <li class="footeritem">2022</li>
+                <li class="footeritem"><a  href="https://rs.school/js/"><img class="rslogo" src="./assets/svg/rs_school_js.svg" alt="RS School Logo"></a></li>
+            </ul>
+        </footer>
+    </body>
 </html>
+
